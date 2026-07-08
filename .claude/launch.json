@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mkdocs-preview",
+      "runtimeExecutable": "/Users/msh/Desktop/xxxxx/Project - ORCA Hand/硬件组装文档/灵巧手知识库（结构重组版）/.venv/bin/mkdocs",
+      "runtimeArgs": ["serve", "-a", "127.0.0.1:8123"],
+      "port": 8123
+    }
+  ]
+}
