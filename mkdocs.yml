@@ -1,0 +1,43 @@
+site_name: 灵巧手知识库
+site_description: 灵巧手（Dexterous Hand）硬件设计、控制算法与系统集成知识库
+site_url: https://xymsh.github.io/dexhand-knowledge-base/
+repo_url: https://github.com/xymsh/dexhand-knowledge-base
+repo_name: dexhand-knowledge-base
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search:
+      lang:
+        - en
+        - zh
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - meta
