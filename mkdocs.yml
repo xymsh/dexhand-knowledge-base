@@ -11,6 +11,10 @@ not_in_nav: |
   04-厂商与产品方案/README.md
   01-硬件设计/驱动-减速-传动/探索中/*
 
+# 已被新版技术路线分类取代的旧文档：保留在仓库里存档，不参与网站构建
+exclude_docs: |
+  01-硬件设计/驱动-减速-传动/_archive-旧版技术路线分类/*
+
 theme:
   name: material
   language: zh
