@@ -43,6 +43,7 @@ plugins:
       lang:
         - en
         - zh
+  - awesome-pages
 
 markdown_extensions:
   - admonition
